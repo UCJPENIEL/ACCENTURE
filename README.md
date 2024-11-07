@@ -98,13 +98,13 @@ This internship provided hands-on experience in Accenture’s structured approac
 
 ## Data & Visualizations
 
-[Task 3_Final Content Data set.csv](https://github.com/user-attachments/files/17658972/Task.3_Final.Content.Data.set.csv)
 ### Dataset
-- **Cleaned Dataset**: The final dataset used for analysis is available here: [cleaned_data.csv](Data/cleaned_data.csv)
+
+- **Cleaned Dataset**: [Task 3_Final Content Data set.csv](https://github.com/user-attachments/files/17658972/Task.3_Final.Content.Data.set.csv)
 
 ### Visualizations
 1. **Top 5 Content Categories**:
-   - [Top 5 Categories Bar Chart](![image](https://github.com/user-attachments/assets/a0f0d07c-6a84-48e0-9fd8-a0c591aca024)
+   - [Top 5 Categories Bar Chart](https://github.com/user-attachments/assets/a0f0d07c-6a84-48e0-9fd8-a0c591aca024)
 ): Shows the popularity of each of the top 5 categories.
    
 2. **Additional Insights**:
@@ -113,11 +113,11 @@ This internship provided hands-on experience in Accenture’s structured approac
    - **Reactions to Animals Posts**: Highest engagement observed for the “Animals” category.
 
    **View Additional Insights Visualizations**:
-   - [Unique Categories](![image](https://github.com/user-attachments/assets/69122a09-c29b-421c-b43d-0243ae18ee29)
+   - [Unique Categories](https://github.com/user-attachments/assets/69122a09-c29b-421c-b43d-0243ae18ee29)
 )
-   - [Monthly Posts Trend (January Peak)](![image](https://github.com/user-attachments/assets/eae79bd4-f892-489d-b127-5b480c48a100)
+   - [Monthly Posts Trend (January Peak)](https://github.com/user-attachments/assets/eae79bd4-f892-489d-b127-5b480c48a100)
 )
-   - [Reactions to Animals](![image](https://github.com/user-attachments/assets/28530e4d-11be-4646-a80f-80118f661fa0)
+   - [Reactions to Animals](https://github.com/user-attachments/assets/28530e4d-11be-4646-a80f-80118f661fa0)
 )
 
 ---
