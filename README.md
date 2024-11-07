@@ -1,5 +1,4 @@
 # ACCENTURE
-# [Task 4 - Model Presentation (with talk track) (1).pdf](https://github.com/user-attachments/files/17613009/Task.4.-.Model.Presentation.with.talk.track.1.pdf)
 BUSINESS ANALYTICS PORTFOLIO
 # **Accenture Data Analytics Internship - Social Buzz Project**
 
@@ -10,106 +9,116 @@ BUSINESS ANALYTICS PORTFOLIO
 - [Data Visualization & Storytelling](#data-visualization--storytelling)
 - [Client Presentation](#client-presentation)
 - [Key Learnings and Reflections](#key-learnings-and-reflections)
+- [Data & Visualizations](#data--visualizations)
 - [Repository Structure](#repository-structure)
 
 ---
 
-## **Overview**
-This repository documents my work as a Data Analytics Intern with Accenture North America, focused on a client project for Social Buzz, a social media platform. This project involved data cleaning, modeling, and analysis to uncover insights into Social Buzz’s most popular content categories. 
+## Overview
 
-> **Data Source**: Data provided by Accenture as part of the Social Buzz case study simulation.
-
----
-
-## **Project Understanding**
-
-### **Objective**
-Social Buzz, a rapidly growing social media company, is preparing for an IPO and aiming to optimize its content engagement. The primary goal of this analysis was to identify the top 5 content categories by popularity, based on user reactions, to guide strategic decisions.
-
-### **Key Deliverables**
-1. **Big Data Audit**: Review Social Buzz's data management practices.
-2. **IPO Preparation**: Provide guidance for a successful IPO.
-3. **Content Analysis**: Identify the top 5 content categories by popularity.
-
-### **My Role**
-As a Data Analyst, I performed data cleaning, merging, modeling, and visualization to create a clear, actionable dataset and insights for Social Buzz. I collaborated with team members to align analysis with business objectives and client needs.
+This repository documents my data analysis work completed during the **Accenture Virtual Internship** as part of a **Data Analytics team** assigned to **Social Buzz**, a fast-growing social media company. With guidance from seasoned Accenture professionals, we tackled Social Buzz’s data challenges, offering insights into their content engagement trends to support their scaling efforts and IPO preparation.
 
 ---
 
-## **Data Cleaning & Modeling**
+## Project Understanding
 
-### **Datasets Used**
-The analysis focused on the following datasets:
-- **Reaction Dataset**: Contains information on user reactions, including `Reaction Type` and `Score`.
-- **Content Dataset**: Includes details of uploaded content, such as `Content ID`, `Type`, and `Category`.
-- **Reaction Types Dataset**: Provides a popularity score for each reaction type.
+Our team’s primary objective was to analyze Social Buzz’s vast unstructured data to identify the **top 5 content categories** by popularity, understand engagement trends, and support Social Buzz in developing a data-driven strategy. This internship provided an excellent introduction to Accenture’s approach to project management and client collaboration, where each team member’s role was vital.
 
-### **Data Cleaning Process**
-1. **Removed Null Values**: Ensured complete rows for accuracy.
-2. **Standardized Data Types**: Corrected data types (e.g., scores as integers).
-3. **Filtered Columns**: Retained relevant columns, including `Content ID`, `Category`, `Reaction Type`, and `Score`.
+### Team Structure
+- **Andrew Fleming**: Chief Technical Architect, guiding the data architecture.
+- **Marcus Rompton**: Senior Principal, leading data engineering and ensuring data integrity.
+- **My Role**: Junior Data Analyst, conducting data cleaning, modeling, and visualization to deliver actionable insights.
 
-### **Data Modeling**
-- **Merging Datasets**: Combined the Reaction, Content, and Reaction Types datasets, using `Reaction Dataset` as the base and joining on relevant keys.
-- **Aggregating Scores**: Calculated total popularity scores by content category to determine the top 5 most popular categories.
-
-> **Outcome**: A structured and cleaned dataset ready for visualization.
+### Client and Business Context
+- **Client**: Social Buzz, a social media platform with a focus on anonymous, content-first engagement.
+- **Challenge**: Managing high volumes of unstructured data (100,000 posts daily), ensuring scalability, and preparing for IPO.
+- **Objective**: Deliver content popularity insights and best practices for efficient data management.
 
 ---
 
-## **Data Visualization & Storytelling**
+## Data Cleaning & Modeling
 
-### **Presentation Structure**
-The presentation was structured to communicate the data insights in a clear and accessible format:
-1. **Agenda**: Outlined the presentation’s goals.
-2. **Project Recap**: Reviewed Social Buzz’s business goals and challenges.
-3. **Problem Statement**: Defined the objective of identifying the top 5 content categories.
-4. **Team Introduction**: Introduced the analytics team and roles.
-5. **Process Overview**: Walked through data cleaning, modeling, and analysis steps.
-6. **Insights and Results**: Presented visualizations and insights from the analysis.
+In this phase, I followed Accenture’s best practices to ensure data quality and relevance for analysis, focusing on these steps:
 
-### **Visualizations and Insights**
+1. **Data Understanding**: Analyzed the data model to identify necessary datasets:
+   - Selected **Reaction**, **Content**, and **Reaction Types** datasets to determine content popularity based on reaction scores.
+2. **Data Cleaning**:
+   - Removed rows with missing values and unnecessary columns.
+   - Standardized data formats across datasets.
+3. **Data Modeling**:
+   - Merged datasets using the **Reaction** table as the base.
+   - Calculated popularity scores by aggregating reaction scores across content categories.
 
-- **Top 5 Categories by Popularity**  
-  ![Top 5 Categories Bar Chart](path/to/Top5_Categories_Bar_Chart.png)  
-  *Description*: Bar chart showcasing the top 5 content categories and their popularity scores.
-
-- **Reaction Volume by Category**  
-  ![Reaction Volume Chart](path/to/Reaction_Volume_Chart.png)  
-  *Description*: Displays reaction counts across categories, highlighting user engagement levels.
-
-- **Monthly Posting Trends**  
-  ![Monthly Trends Line Chart](path/to/Monthly_Trend_Line_Chart.png)  
-  *Description*: Line chart illustrating monthly posting trends, showing seasonal engagement patterns.
-
-> **Outcome**: These visuals helped communicate insights effectively, supporting strategic recommendations.
+Outcome: A clean, structured dataset ready for analysis, focusing on answering Social Buzz’s primary question about the top content categories.
 
 ---
 
-## **Client Presentation**
+## Data Visualization & Storytelling
 
-### **Presentation Highlights**
-1. **Top Categories Identified**: The top 5 categories identified were Animals, Science, Healthy Eating, Technology, and Food.
-2. **Audience Insights**: Engagement in categories like Healthy Eating indicates a health-conscious user base.
-3. **Seasonal Posting Patterns**: Higher posting volumes in January suggest a seasonal trend, useful for campaign planning.
+In line with Accenture’s standards for data storytelling, I created visualizations that clearly communicate findings to stakeholders:
 
-### **Recommendations**
-- **Diversify Content Algorithms**: Ensure balanced content recommendations.
-- **Health-Focused Partnerships**: Collaborate with brands in the healthy eating space.
-- **Seasonal Campaign Planning**: Leverage posting trends to drive engagement around key months.
-
----
-
-## **Key Learnings and Reflections**
-
-### **Skills Developed**
-- **Data Cleaning and Preparation**: Advanced skills in preparing complex datasets.
-- **Data Modeling**: Proficiency in merging and structuring data across tables.
-- **Visualization and Storytelling**: Ability to create compelling data stories for non-technical audiences.
-
-### **Personal Reflection**
-This internship taught me the importance of aligning data analysis with business objectives and communicating insights effectively. I gained hands-on experience transforming raw data into strategic insights, which I look forward to applying in future roles.
+1. **Top 5 Content Categories**: Represented in a **bar chart** displaying each category’s popularity score in descending order, making it easy to identify high-performing content types.
+2. **Engagement Insights**:
+   - **Total Categories**: Noted that there were 16 unique categories.
+   - **Reactions for Top Category**: Highlighted that *Animals* received the highest reactions (1,897).
+   - **Most Active Month**: **January** recorded the highest activity, aligning with post-holiday trends. This insight was visualized in a **column chart** to show monthly engagement.
+   
+Each visualization emphasized how specific types of content, like *Animals* and *Science*, drove engagement on Social Buzz, providing the client with an engaging and actionable narrative.
 
 ---
 
+## Client Presentation
+
+In our final presentation, structured as per Accenture’s guidelines, we focused on delivering clear insights and actionable recommendations:
+
+- **Project Summary**: Recap of project goals, key team members, and Social Buzz’s objectives.
+- **Top 5 Categories**:
+   - **Animals**, **Science**, **Healthy Eating**, **Technology**, and **Food** were presented as the most engaging categories.
+   - Discussed each category’s role in attracting user engagement.
+- **Insights on User Preferences**:
+   - Highlighted user interest in “real-life” and factual content.
+   - Identified health-conscious topics as potential campaign areas (e.g., Healthy Eating).
+- **Strategic Recommendations**:
+   - **Content Balance**: Suggested an algorithm to maintain category variety.
+   - **Campaign Opportunities**: Recommended partnerships with health-focused brands to leverage the popularity of the *Healthy Eating* category.
+
+This presentation demonstrated our ability to translate data insights into strategic recommendations that align with Social Buzz’s business goals.
+
+---
+
+## Key Learnings and Reflections
+
+This internship provided hands-on experience in Accenture’s structured approach to data analytics and client engagement:
+- **Data Cleaning Skills**: Ensured that datasets were clean, accurate, and relevant to the analysis.
+- **Visualization Proficiency**: Created impactful visuals that conveyed findings in a business-friendly way.
+- **Client-Focused Communication**: Presented technical insights in a clear, actionable format tailored to Social Buzz’s needs.
+- **Team Collaboration**: Learned from the expertise of senior team members, applying best practices for data integrity and client impact.
+
+---
+
+## Data & Visualizations
+
+[Task 3_Final Content Data set.csv](https://github.com/user-attachments/files/17658972/Task.3_Final.Content.Data.set.csv)
+### Dataset
+- **Cleaned Dataset**: The final dataset used for analysis is available here: [cleaned_data.csv](Data/cleaned_data.csv)
+
+### Visualizations
+1. **Top 5 Content Categories**:
+   - [Top 5 Categories Bar Chart](![image](https://github.com/user-attachments/assets/a0f0d07c-6a84-48e0-9fd8-a0c591aca024)
+): Shows the popularity of each of the top 5 categories.
+   
+2. **Additional Insights**:
+   - **Unique Categories**: Total number of unique content categories identified.
+   - **Month with Most Posts**: January, representing the peak of user engagement.
+   - **Reactions to Animals Posts**: Highest engagement observed for the “Animals” category.
+
+   **View Additional Insights Visualizations**:
+   - [Unique Categories](![image](https://github.com/user-attachments/assets/69122a09-c29b-421c-b43d-0243ae18ee29)
+)
+   - [Monthly Posts Trend (January Peak)](![image](https://github.com/user-attachments/assets/eae79bd4-f892-489d-b127-5b480c48a100)
+)
+   - [Reactions to Animals](![image](https://github.com/user-attachments/assets/28530e4d-11be-4646-a80f-80118f661fa0)
+)
+
+---
 ## **Repository Structure**
